@@ -25,7 +25,7 @@
 
 ### super() method
 
-  - The built-in super() method is used to call the super class'es constructors,variables and methods from the child class.
+  - The built-in super() method is used to call the super class's constructors, variables and methods from the child class.
 
   #### Calling the constructor using super():
 
@@ -42,10 +42,11 @@
         self.department = department
     ```
 
-  #### Calling the menthod using super():
+  #### Calling the method using super():
 
-   - Using super() from child class'es constructor and instance method, we can access parent class instance method, static method and class method.
-   - similar to calling the constructor, using syntex:
+   - Using super(), from the child class's constructor and instance method, we can access the parent class instance method, static method and class method.
+   - similar to calling the constructor, using syntax:
     ```python 
      super().method_name()
     ```
+   -Using super() in the child class's class method, the parent's instance method and constructor are not accessible(only but parent's static and class methods are accessible). 
