@@ -49,7 +49,8 @@
     ```python 
      super().method_name()
     ```
-   - Using super() in the child class's class method, the parent's instance method and constructor are not accessible(only but parent's static and class methods are accessible). 
+   - Using ```super().method_name()``` in the child class's class method, the parent's instance method and constructor are not accessible(only but parent's static and class methods are accessible). 
+      - There is one indirect method to achieve this.
 
   #### Calling the variables using super():
 
