@@ -50,3 +50,8 @@
      super().method_name()
     ```
    -Using super() in the child class's class method, the parent's instance method and constructor are not accessible(only but parent's static and class methods are accessible). 
+
+  #### Calling the variables using super():
+  
+   -using super() parent's instance variables are not accessible(they are accessible using "self.variable_name").
+   -parent's static variables are accessible using super().
