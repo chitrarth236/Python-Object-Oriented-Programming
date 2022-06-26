@@ -58,5 +58,5 @@
 
   #### using super to call perticular class's methods
    - Two ways:
-      - 1. Kclass.method1(self)  - It will call Kclass's method1() method.
-      - 2. super(Kclass,self).method1() It will call method1() method of super class of Kclass.
+      - Kclass.method1(self)  - It will call Kclass's method1() method.
+      - super(Kclass,self).method1() It will call method1() method of super class of Kclass.
