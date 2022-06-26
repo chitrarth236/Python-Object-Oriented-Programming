@@ -77,3 +77,8 @@
    - Two ways:
       - Kclass.method1(self)  - It will call Kclass's method1() method.
       - super(Kclass,self).method1() It will call method1() method of super class of Kclass.
+
+  #### remianing topics:
+    - method overriding
+    - indirect way to call the parent's instance method and constructor in child's class method
+    - c3 and mro
